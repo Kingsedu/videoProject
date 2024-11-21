@@ -35,6 +35,6 @@ server.handleErr((error, req, res) => {
   }
 });
 
-server.listen(PORT, () => {
+-server.listen(PORT, () => {
   console.log(`Server has started on port ${PORT}`);
 });
